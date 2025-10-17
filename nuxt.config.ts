@@ -35,7 +35,7 @@ export default defineNuxtConfig({
     "@pinia/nuxt",
   ],
   runtimeConfig: {
-    geminiApiKey: process.env.GEMINI_API_KEY,
+  geminiApiKey: process.env.GEMINI_API_KEY,
   razorpayKeyId: process.env.RAZORPAY_KEY_ID || "rzp_test_RU4nb5RxwSpjZv",
   razorpayKeySecret: process.env.RAZORPAY_KEY_SECRET || "gQPic8eVQkicsJ7fRu1DvW3m",
   },
